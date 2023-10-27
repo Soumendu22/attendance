@@ -23,6 +23,10 @@ CREATE TABLE IF NOT EXISTS "attable" (
 	FOREIGN KEY("id") REFERENCES "users"("id"),
 	PRIMARY KEY("subid")
 );
+CREATE TABLE "sqlite_sequence" (
+	"name"	,
+	"seq"	
+);
 INSERT INTO "users" ("id","username","password","email") VALUES (1,'soumendu','b7791f63c6254a1bb648d7fd3bba89b509ac00e4d325e0a56b9aacddb43a69b8','dhsadsAfjsdj'),
  (2,'Soumendu','505843b668b35e248a617477ea71125bffb149cd02a23e634d8957513784ce62','smanna22@ggg'),
  (3,'','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',''),
